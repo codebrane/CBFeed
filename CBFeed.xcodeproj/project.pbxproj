@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* CBFeed_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* CBFeed_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F3B9EBCE127EDE9600B16A6D /* CBFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B9EBCC127EDE9600B16A6D /* CBFeed.h */; };
+		F3B9EBCF127EDE9600B16A6D /* CBFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9EBCD127EDE9600B16A6D /* CBFeed.m */; };
+		F3B9EBD8127EDF0D00B16A6D /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */; };
+		F3D0798D127EE50A004030B9 /* CBFeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */; };
+		F3D079AD127EE760004030B9 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */; };
+		F3D079B4127EE785004030B9 /* CBFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D079B3127EE785004030B9 /* CBFeedParser.m */; };
+		F3D079BA127EE7C7004030B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F3D07A0C127EF1A8004030B9 /* libCBFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libCBFeed.a */; };
+		F3D07A6B127EF649004030B9 /* testfeed.xml in Resources */ = {isa = PBXBuildFile; fileRef = F3D07A6A127EF649004030B9 /* testfeed.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3D07A07127EF197004030B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* CBFeed */;
+			remoteInfo = CBFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* CBFeed_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeed_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libCBFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCBFeed.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B9EBCC127EDE9600B16A6D /* CBFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeed.h; sourceTree = "<group>"; };
+		F3B9EBCD127EDE9600B16A6D /* CBFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeed.m; sourceTree = "<group>"; };
+		F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		F3D0797D127EE377004030B9 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D0797E127EE377004030B9 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		F3D0798B127EE50A004030B9 /* CBFeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeedTestCase.h; sourceTree = "<group>"; };
+		F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeedTestCase.m; sourceTree = "<group>"; };
+		F3D079B2127EE785004030B9 /* CBFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeedParser.h; sourceTree = "<group>"; };
+		F3D079B3127EE785004030B9 /* CBFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeedParser.m; sourceTree = "<group>"; };
+		F3D07A6A127EF649004030B9 /* testfeed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testfeed.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				F3B9EBD8127EDF0D00B16A6D /* libxml2.2.7.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D0797A127EE377004030B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D079AD127EE760004030B9 /* libxml2.2.7.3.dylib in Frameworks */,
+				F3D079BA127EE7C7004030B9 /* Foundation.framework in Frameworks */,
+				F3D07A0C127EF1A8004030B9 /* libCBFeed.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libCBFeed.a */,
+				F3D0797D127EE377004030B9 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CBFeed */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0798A127EE4D1004030B9 /* Unit Tests */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				F3D0797E127EE377004030B9 /* UnitTests-Info.plist */,
+			);
+			name = CBFeed;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9EBCC127EDE9600B16A6D /* CBFeed.h */,
+				F3B9EBCD127EDE9600B16A6D /* CBFeed.m */,
+				F3D079B2127EE785004030B9 /* CBFeedParser.h */,
+				F3D079B3127EE785004030B9 /* CBFeedParser.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* CBFeed_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F3D0798A127EE4D1004030B9 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0798B127EE50A004030B9 /* CBFeedTestCase.h */,
+				F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */,
+				F3D07A6A127EF649004030B9 /* testfeed.xml */,
+			);
+			name = "Unit Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* CBFeed_Prefix.pch in Headers */,
+				F3B9EBCE127EDE9600B16A6D /* CBFeed.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* CBFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "CBFeed" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBFeed;
+			productName = CBFeed;
+			productReference = D2AAC07E0554694100DB518D /* libCBFeed.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F3D0797C127EE377004030B9 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D07981127EE378004030B9 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				F3D07978127EE377004030B9 /* Resources */,
+				F3D07979127EE377004030B9 /* Sources */,
+				F3D0797A127EE377004030B9 /* Frameworks */,
+				F3D0797B127EE377004030B9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3D07A08127EF197004030B9 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = F3D0797D127EE377004030B9 /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CBFeed" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* CBFeed */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* CBFeed */,
+				F3D0797C127EE377004030B9 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D07978127EE377004030B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D07A6B127EF649004030B9 /* testfeed.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F3D0797B127EE377004030B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B9EBCF127EDE9600B16A6D /* CBFeed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D07979127EE377004030B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D0798D127EE50A004030B9 /* CBFeedTestCase.m in Sources */,
+				F3D079B4127EE785004030B9 /* CBFeedParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3D07A08127EF197004030B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* CBFeed */;
+			targetProxy = F3D07A07127EF197004030B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/CBFeed.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CBFeed_Prefix.pch;
+				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = CBFeed;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/CBFeed.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CBFeed_Prefix.pch;
+				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = CBFeed;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		F3D0797F127EE378004030B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F3D07980127EE378004030B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "CBFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CBFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D07981127EE378004030B9 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D0797F127EE378004030B9 /* Debug */,
+				F3D07980127EE378004030B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
