@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	   xmlns:dc="http://purl.org/dc/elements/1.1/"
+	   xmlns:atom="http://www.w3.org/2005/Atom"
+	   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	   xmlns:media="http://search.yahoo.com/mrss/"
+	   xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+	   version="2.0">
+
+<channel>
+	<title>Alistair's cakeBlog</title>
+	
+	<link>http://codebrane.com/blog</link>
+	<description>Software development and philosophical musings</description>
+	<lastBuildDate>Thu, 16 Sep 2010 14:56:32 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/AlistairsCakeblog" /><feedburner:info uri="alistairscakeblog" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Profit and loss in open source</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/DKDl6xfYX-4/</link>
+		<comments>http://codebrane.com/blog/?p=1544#comments</comments>
+		<pubDate>Thu, 16 Sep 2010 14:56:32 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[Software Engineering]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[profit and loss]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1544</guid>
+		<description>I&amp;#8217;m a fan of Dragons&amp;#8217; Den on the BBC as it&amp;#8217;s an interesting peek into the world of business, which quite fascinates me and the other day Duncan Bannatyne said something that made me think about how I interact with the open source community: Turnover is vanity Profit is sanity Profit is a strange word [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/DKDl6xfYX-4" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1544</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1544</feedburner:origLink></item>
+		<item>
+		<title>Guanxi has moved to GitHub!</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/TVkN1LFpH2E/</link>
+		<comments>http://codebrane.com/blog/?p=1530#comments</comments>
+		<pubDate>Tue, 10 Aug 2010 10:47:08 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[Guanxi]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[SAML]]></category>
+		<category><![CDATA[Shibboleth]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1530</guid>
+		<description>Guanxi has now moved to the Guanxi Organisation on GitHub. I&amp;#8217;m in the process of migrating the Wiki too and the localhost tutorial is now on the Brane. I&amp;#8217;ll keep uploading releases to the sourceforge site but the source code is now on GitHub. If you fancy contributing, get a GitHub account and let me [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/TVkN1LFpH2E" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1530</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1530</feedburner:origLink></item>
+		<item>
+		<title>Migrating from CVS to Git</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/yBDsyXKk3uk/</link>
+		<comments>http://codebrane.com/blog/?p=1499#comments</comments>
+		<pubDate>Sun, 08 Aug 2010 14:16:10 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[Guanxi]]></category>
+		<category><![CDATA[howTo]]></category>
+		<category><![CDATA[cvs]]></category>
+		<category><![CDATA[cvs2git]]></category>
+		<category><![CDATA[gdbm]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[migrate]]></category>
+		<category><![CDATA[python]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1499</guid>
+		<description>Recently I decided to move Guanxi from Sourceforge to GitHub as I like the social side of coding and being able to manage collaborations and committers better. I first had a go using git-cvsimport but it failed on the Engine, so I ended up taking the plunge and going with cvs2git. There&amp;#8217;s a fair amount [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/yBDsyXKk3uk" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1499</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1499</feedburner:origLink></item>
+		<item>
+		<title>Elgg BlogLatest plugin updated</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/gQ-ljIo1pbU/</link>
+		<comments>http://codebrane.com/blog/?p=1497#comments</comments>
+		<pubDate>Wed, 04 Aug 2010 10:19:28 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[elgg]]></category>
+		<category><![CDATA[bloglatest]]></category>
+		<category><![CDATA[latest blog posts]]></category>
+		<category><![CDATA[latest wire posts]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1497</guid>
+		<description>I&amp;#8217;ve released v1.0.0 of my BlogLatest plugin for Elgg. It&amp;#8217;s a bug fix release and you can download it from the plugin page or download the source from the github page. The plugin lets you add a widget to the dashboard that displays a configurable set of information on the latest blog and wire posts. [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/gQ-ljIo1pbU" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1497</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1497</feedburner:origLink></item>
+		<item>
+		<title>Hacking SCORM assessments</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/ANzOhLJKpik/</link>
+		<comments>http://codebrane.com/blog/?p=1480#comments</comments>
+		<pubDate>Tue, 03 Aug 2010 10:15:09 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[Blackboard]]></category>
+		<category><![CDATA[eLearning]]></category>
+		<category><![CDATA[howTo]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[scorm]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1480</guid>
+		<description>The Sharable Content Object Reference Model (SCORM) standard is designed to allow reusable units of learning material to be used in different Learning Management Systems (LMS). The following diagram gives an outline of what&amp;#8217;s involved in getting a Shareable Content Object (SCO) hierarchy from an LMS into a user&amp;#8217;s web browser. The activities contained in [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/ANzOhLJKpik" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1480</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1480</feedburner:origLink></item>
+		<item>
+		<title>On the coolness of things</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/q9Zf_mp3o-c/</link>
+		<comments>http://codebrane.com/blog/?p=1477#comments</comments>
+		<pubDate>Wed, 28 Jul 2010 07:57:49 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[The Rantorium]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1477</guid>
+		<description>Here&amp;#8217;s an interesting take on &amp;#8220;cool&amp;#8221;. Not really sure whether to agree with the change of use of the word &amp;#8220;cool&amp;#8221; as I&amp;#8217;ve never really used it. Cool for me has always been a Hollywood term but these days it more or less means &amp;#8220;interesting for the next 5 secs&amp;#8221;. A cool tweet, a cool [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/q9Zf_mp3o-c" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1477</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1477</feedburner:origLink></item>
+		<item>
+		<title>Dangerous Ruby!</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/BtlaUkQ3diE/</link>
+		<comments>http://codebrane.com/blog/?p=1474#comments</comments>
+		<pubDate>Wed, 14 Jul 2010 12:29:09 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[Software Engineering]]></category>
+		<category><![CDATA[The Rantorium]]></category>
+		<category><![CDATA[ruby]]></category>
+		<category><![CDATA[bang]]></category>
+		<category><![CDATA[dangerous]]></category>
+		<category><![CDATA[exclamation mark]]></category>
+		<category><![CDATA[method]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1474</guid>
+		<description>In my last place, we employed a graduate software engineer and one day I was asked to review his code. So we sat down and had a look at an app he was working on. Can&amp;#8217;t remember what it was now but I seem to remember it was written in Visual Basic, though &amp;#8216;m not [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/BtlaUkQ3diE" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1474</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1474</feedburner:origLink></item>
+		<item>
+		<title>Blackboard heading for Supernova?</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/uRLaINz-QGk/</link>
+		<comments>http://codebrane.com/blog/?p=1461#comments</comments>
+		<pubDate>Tue, 13 Jul 2010 13:25:02 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[Blackboard]]></category>
+		<category><![CDATA[The Rantorium]]></category>
+		<category><![CDATA[eLearning]]></category>
+		<category><![CDATA[integration]]></category>
+		<category><![CDATA[blackboard]]></category>
+		<category><![CDATA[elluminate]]></category>
+		<category><![CDATA[takeover]]></category>
+		<category><![CDATA[wimba]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1461</guid>
+		<description>A long time ago, during the early days of the Bodington collaboration, those that know about these things reckoned the LMS, or as it was termed in those days, VLE, would become an aggregator of learning services, rather than a monolithic blob of press ganged functionality and at the time, when open source was doing [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/uRLaINz-QGk" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1461</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1461</feedburner:origLink></item>
+		<item>
+		<title>A new slant on the discovery problem</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/cncoJlJdcf0/</link>
+		<comments>http://codebrane.com/blog/?p=1451#comments</comments>
+		<pubDate>Wed, 07 Jul 2010 13:33:17 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[FAM]]></category>
+		<category><![CDATA[The Rantorium]]></category>
+		<category><![CDATA[eLearning]]></category>
+		<category><![CDATA[discovery problem]]></category>
+		<category><![CDATA[jisc]]></category>
+		<category><![CDATA[SAML]]></category>
+		<category><![CDATA[Shibboleth]]></category>
+		<category><![CDATA[uk federation]]></category>
+		<category><![CDATA[wayf]]></category>
+		<category><![CDATA[xauth]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1451</guid>
+		<description>For a long time now, users of e-resources that offer Shibboleth access have been confronted with the discovery problem. That first hurdle one must jump to get anywhere near the resource. The supplier must ask you, &amp;#8220;Where Are You From?&amp;#8221; but because you can&amp;#8217;t speak to a web site and say &amp;#8220;University of Blah&amp;#8221;, you&amp;#8217;re [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/cncoJlJdcf0" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1451</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1451</feedburner:origLink></item>
+		<item>
+		<title>Guanxi Engine 2.2.1 release</title>
+		<link>http://feedproxy.google.com/~r/AlistairsCakeblog/~3/LzInqZRS20I/</link>
+		<comments>http://codebrane.com/blog/?p=1448#comments</comments>
+		<pubDate>Thu, 01 Jul 2010 08:34:44 +0000</pubDate>
+		<dc:creator>Alistair Young</dc:creator>
+				<category><![CDATA[Guanxi]]></category>
+
+		<guid isPermaLink="false">http://codebrane.com/blog/?p=1448</guid>
+		<description>A minor bugfix and feature upgrade release for the Guanxi SAML/Shibboleth Engine. You can download it from sourceforge. 2.2.1 Updated org.guanxi.sp.engine.service.shibboleth.ShibbolethProfileService. Fixed bug where it was sending the time param as Zulu time instead of Unix time Updated org.guanxi.sp.engine.service.generic.GenericProfileService. Added support for loading a default entityID for a Guard from the config Updated resources/log4j.properties. Fixed [...]&lt;img src="http://feeds.feedburner.com/~r/AlistairsCakeblog/~4/LzInqZRS20I" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://codebrane.com/blog/?feed=rss2&amp;p=1448</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://codebrane.com/blog/?p=1448</feedburner:origLink></item>
+	<media:credit role="author">Alistair Young</media:credit><media:rating>nonadult</media:rating></channel>
+</rss>
