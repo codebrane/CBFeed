@@ -1,6 +1,6 @@
 #import "CBFeedTestCase.h"
 
-static NSString* testFeedFileName = @"/testfeed.xml";
+static NSString* testFeedFileName = @"/testrss20.xml";
 
 @implementation CBFeedTestCase
 
