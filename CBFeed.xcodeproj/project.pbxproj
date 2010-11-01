@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA747D9F0F9514B9006C5449 /* CBFeed_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* CBFeed_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F347C6E7127F064A00966D75 /* testrss20.xml in Resources */ = {isa = PBXBuildFile; fileRef = F347C6E6127F064A00966D75 /* testrss20.xml */; };
 		F3B9EBCE127EDE9600B16A6D /* CBFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B9EBCC127EDE9600B16A6D /* CBFeed.h */; };
 		F3B9EBCF127EDE9600B16A6D /* CBFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9EBCD127EDE9600B16A6D /* CBFeed.m */; };
 		F3B9EBD8127EDF0D00B16A6D /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */; };
@@ -17,7 +18,6 @@
 		F3D079B4127EE785004030B9 /* CBFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D079B3127EE785004030B9 /* CBFeedParser.m */; };
 		F3D079BA127EE7C7004030B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		F3D07A0C127EF1A8004030B9 /* libCBFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libCBFeed.a */; };
-		F3D07A6B127EF649004030B9 /* testfeed.xml in Resources */ = {isa = PBXBuildFile; fileRef = F3D07A6A127EF649004030B9 /* testfeed.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 		AA747D9E0F9514B9006C5449 /* CBFeed_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeed_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libCBFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCBFeed.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F347C6E6127F064A00966D75 /* testrss20.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testrss20.xml; sourceTree = "<group>"; };
 		F3B9EBCC127EDE9600B16A6D /* CBFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeed.h; sourceTree = "<group>"; };
 		F3B9EBCD127EDE9600B16A6D /* CBFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeed.m; sourceTree = "<group>"; };
 		F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
@@ -43,7 +44,6 @@
 		F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeedTestCase.m; sourceTree = "<group>"; };
 		F3D079B2127EE785004030B9 /* CBFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeedParser.h; sourceTree = "<group>"; };
 		F3D079B3127EE785004030B9 /* CBFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeedParser.m; sourceTree = "<group>"; };
-		F3D07A6A127EF649004030B9 /* testfeed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testfeed.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +122,9 @@
 		F3D0798A127EE4D1004030B9 /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F347C6E6127F064A00966D75 /* testrss20.xml */,
 				F3D0798B127EE50A004030B9 /* CBFeedTestCase.h */,
 				F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */,
-				F3D07A6A127EF649004030B9 /* testfeed.xml */,
 			);
 			name = "Unit Tests";
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D07A6B127EF649004030B9 /* testfeed.xml in Resources */,
+				F347C6E7127F064A00966D75 /* testrss20.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
