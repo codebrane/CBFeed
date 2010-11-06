@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		AA747D9F0F9514B9006C5449 /* CBFeed_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* CBFeed_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		F347C6E7127F064A00966D75 /* testrss20.xml in Resources */ = {isa = PBXBuildFile; fileRef = F347C6E6127F064A00966D75 /* testrss20.xml */; };
+		F347C784127F1AC600966D75 /* CBFeedError.h in Headers */ = {isa = PBXBuildFile; fileRef = F347C782127F1AC600966D75 /* CBFeedError.h */; };
+		F347C785127F1AC600966D75 /* CBFeedError.m in Sources */ = {isa = PBXBuildFile; fileRef = F347C783127F1AC600966D75 /* CBFeedError.m */; };
+		F37A317712855F7700BA90FC /* libCBFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libCBFeed.a */; };
+		F37A317B12855F7F00BA90FC /* CBFeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */; };
+		F37A31861285600F00BA90FC /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */; };
+		F37A31921285602100BA90FC /* CBFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D079B3127EE785004030B9 /* CBFeedParser.m */; };
+		F37A339B1285964E00BA90FC /* CBFeedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F37A33991285964E00BA90FC /* CBFeedItem.h */; };
+		F37A339C1285964E00BA90FC /* CBFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F37A339A1285964E00BA90FC /* CBFeedItem.m */; };
 		F3B9EBCE127EDE9600B16A6D /* CBFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B9EBCC127EDE9600B16A6D /* CBFeed.h */; };
 		F3B9EBCF127EDE9600B16A6D /* CBFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9EBCD127EDE9600B16A6D /* CBFeed.m */; };
 		F3B9EBD8127EDF0D00B16A6D /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */; };
-		F3D0798D127EE50A004030B9 /* CBFeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */; };
-		F3D079AD127EE760004030B9 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */; };
-		F3D079B4127EE785004030B9 /* CBFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D079B3127EE785004030B9 /* CBFeedParser.m */; };
-		F3D079BA127EE7C7004030B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		F3D07A0C127EF1A8004030B9 /* libCBFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libCBFeed.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F3D07A07127EF197004030B9 /* PBXContainerItemProxy */ = {
+		F37A317C12855F8C00BA90FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* CBFeed */;
 			remoteInfo = CBFeed;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,12 +36,15 @@
 		AA747D9E0F9514B9006C5449 /* CBFeed_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeed_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libCBFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCBFeed.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F347C6E6127F064A00966D75 /* testrss20.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testrss20.xml; sourceTree = "<group>"; };
+		F347C782127F1AC600966D75 /* CBFeedError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeedError.h; sourceTree = "<group>"; };
+		F347C783127F1AC600966D75 /* CBFeedError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeedError.m; sourceTree = "<group>"; };
+		F37A316F12855F5500BA90FC /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37A317012855F5500BA90FC /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		F37A33991285964E00BA90FC /* CBFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeedItem.h; sourceTree = "<group>"; };
+		F37A339A1285964E00BA90FC /* CBFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeedItem.m; sourceTree = "<group>"; };
 		F3B9EBCC127EDE9600B16A6D /* CBFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeed.h; sourceTree = "<group>"; };
 		F3B9EBCD127EDE9600B16A6D /* CBFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeed.m; sourceTree = "<group>"; };
 		F3B9EBD7127EDF0D00B16A6D /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
-		F3D0797D127EE377004030B9 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3D0797E127EE377004030B9 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		F3D0798B127EE50A004030B9 /* CBFeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeedTestCase.h; sourceTree = "<group>"; };
 		F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFeedTestCase.m; sourceTree = "<group>"; };
 		F3D079B2127EE785004030B9 /* CBFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFeedParser.h; sourceTree = "<group>"; };
@@ -56,13 +61,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3D0797A127EE377004030B9 /* Frameworks */ = {
+		F37A316C12855F5500BA90FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D079AD127EE760004030B9 /* libxml2.2.7.3.dylib in Frameworks */,
-				F3D079BA127EE7C7004030B9 /* Foundation.framework in Frameworks */,
-				F3D07A0C127EF1A8004030B9 /* libCBFeed.a in Frameworks */,
+				F37A317712855F7700BA90FC /* libCBFeed.a in Frameworks */,
+				F37A31861285600F00BA90FC /* libxml2.2.7.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libCBFeed.a */,
-				F3D0797D127EE377004030B9 /* UnitTests.octest */,
+				F37A316F12855F5500BA90FC /* UnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +90,7 @@
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				F3D0797E127EE377004030B9 /* UnitTests-Info.plist */,
+				F37A317012855F5500BA90FC /* UnitTests-Info.plist */,
 			);
 			name = CBFeed;
 			sourceTree = "<group>";
@@ -107,6 +111,10 @@
 				F3B9EBCD127EDE9600B16A6D /* CBFeed.m */,
 				F3D079B2127EE785004030B9 /* CBFeedParser.h */,
 				F3D079B3127EE785004030B9 /* CBFeedParser.m */,
+				F347C782127F1AC600966D75 /* CBFeedError.h */,
+				F347C783127F1AC600966D75 /* CBFeedError.m */,
+				F37A33991285964E00BA90FC /* CBFeedItem.h */,
+				F37A339A1285964E00BA90FC /* CBFeedItem.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -122,7 +130,6 @@
 		F3D0798A127EE4D1004030B9 /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F347C6E6127F064A00966D75 /* testrss20.xml */,
 				F3D0798B127EE50A004030B9 /* CBFeedTestCase.h */,
 				F3D0798C127EE50A004030B9 /* CBFeedTestCase.m */,
 			);
@@ -138,6 +145,8 @@
 			files = (
 				AA747D9F0F9514B9006C5449 /* CBFeed_Prefix.pch in Headers */,
 				F3B9EBCE127EDE9600B16A6D /* CBFeed.h in Headers */,
+				F347C784127F1AC600966D75 /* CBFeedError.h in Headers */,
+				F37A339B1285964E00BA90FC /* CBFeedItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,23 +170,22 @@
 			productReference = D2AAC07E0554694100DB518D /* libCBFeed.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F3D0797C127EE377004030B9 /* UnitTests */ = {
+		F37A316E12855F5500BA90FC /* UnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3D07981127EE378004030B9 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildConfigurationList = F37A317312855F5600BA90FC /* Build configuration list for PBXNativeTarget "UnitTests" */;
 			buildPhases = (
-				F3D07978127EE377004030B9 /* Resources */,
-				F3D07979127EE377004030B9 /* Sources */,
-				F3D0797A127EE377004030B9 /* Frameworks */,
-				F3D0797B127EE377004030B9 /* ShellScript */,
+				F37A316A12855F5500BA90FC /* Resources */,
+				F37A316B12855F5500BA90FC /* Sources */,
+				F37A316C12855F5500BA90FC /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3D07A08127EF197004030B9 /* PBXTargetDependency */,
+				F37A317D12855F8C00BA90FC /* PBXTargetDependency */,
 			);
 			name = UnitTests;
 			productName = UnitTests;
-			productReference = F3D0797D127EE377004030B9 /* UnitTests.octest */;
+			productReference = F37A316F12855F5500BA90FC /* UnitTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -194,37 +202,20 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* CBFeed */,
-				F3D0797C127EE377004030B9 /* UnitTests */,
+				F37A316E12855F5500BA90FC /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3D07978127EE377004030B9 /* Resources */ = {
+		F37A316A12855F5500BA90FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F347C6E7127F064A00966D75 /* testrss20.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		F3D0797B127EE377004030B9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AAC07B0554694100DB518D /* Sources */ = {
@@ -232,25 +223,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B9EBCF127EDE9600B16A6D /* CBFeed.m in Sources */,
+				F347C785127F1AC600966D75 /* CBFeedError.m in Sources */,
+				F37A339C1285964E00BA90FC /* CBFeedItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3D07979127EE377004030B9 /* Sources */ = {
+		F37A316B12855F5500BA90FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D0798D127EE50A004030B9 /* CBFeedTestCase.m in Sources */,
-				F3D079B4127EE785004030B9 /* CBFeedParser.m in Sources */,
+				F37A31921285602100BA90FC /* CBFeedParser.m in Sources */,
+				F37A317B12855F7F00BA90FC /* CBFeedTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F3D07A08127EF197004030B9 /* PBXTargetDependency */ = {
+		F37A317D12855F8C00BA90FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D2AAC07D0554694100DB518D /* CBFeed */;
-			targetProxy = F3D07A07127EF197004030B9 /* PBXContainerItemProxy */;
+			targetProxy = F37A317C12855F8C00BA90FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -316,7 +309,7 @@
 			};
 			name = Release;
 		};
-		F3D0797F127EE378004030B9 /* Debug */ = {
+		F37A317112855F5600BA90FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,7 +339,7 @@
 			};
 			name = Debug;
 		};
-		F3D07980127EE378004030B9 /* Release */ = {
+		F37A317212855F5600BA90FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,11 +390,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3D07981127EE378004030B9 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+		F37A317312855F5600BA90FC /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3D0797F127EE378004030B9 /* Debug */,
-				F3D07980127EE378004030B9 /* Release */,
+				F37A317112855F5600BA90FC /* Debug */,
+				F37A317212855F5600BA90FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
