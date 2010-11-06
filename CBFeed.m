@@ -2,6 +2,6 @@
 
 @implementation CBFeed
 
-@synthesize title;
+@synthesize title, link;
 
 @end
