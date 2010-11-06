@@ -94,6 +94,7 @@ static xmlSAXHandler simpleSAXHandlerStruct;
 static BOOL inChannel = NO;
 static BOOL inTitle = NO;
 static BOOL inItem = NO;
+static BOOL inLink = NO;
 
 // The following constants are the XML element names and their string lengths for parsing comparison.
 // The lengths include the null terminator, to ensure exact matches.
@@ -103,10 +104,8 @@ static const char *kName_Item = "item";
 static const NSUInteger kLength_Item = 5;
 static const char *kName_Title = "title";
 static const NSUInteger kLength_Title = 6;
-static const char *kName_Category = "category";
-static const NSUInteger kLength_Category = 9;
-static const char *kName_Itms = "itms";
-static const NSUInteger kLength_Itms = 5;
+static const char *kName_Link = "link";
+static const NSUInteger kLength_Link = 5;
 
 static void startElementSAX(void *ctx, const xmlChar *localname, const xmlChar *prefix, const xmlChar *URI, 
                             int nb_namespaces, const xmlChar **namespaces, int nb_attributes,
@@ -126,6 +125,10 @@ static void startElementSAX(void *ctx, const xmlChar *localname, const xmlChar *
   }
   else if (prefix == NULL && !strncmp((const char *)localname, kName_Item, kLength_Item)) {
     inItem = YES;
+    parser.storingCharacters = NO;
+  }
+  else if (prefix == NULL && !strncmp((const char *)localname, kName_Link, kLength_Link)) {
+    inLink = YES;
     parser.storingCharacters = YES;
   }
 }
@@ -136,14 +139,26 @@ static void	endElementSAX(void *ctx, const xmlChar *localname, const xmlChar *pr
   if (prefix == NULL && !strncmp((const char *)localname, kName_Channel, kLength_Channel)) {
     inChannel = NO;
   }
-  else if (prefix == NULL && !strncmp((const char *)localname, kName_Title, kLength_Title)) {
+  else if (inTitle) {
     inTitle = NO;
-    if ((inChannel) && (!inItem)) {
+    if (!inItem) {
       parser.feed.title = [parser currentString];
     }
+    else {
+      [parser currentString];
+    }
   }
-  else if (prefix == NULL && !strncmp((const char *)localname, kName_Title, kLength_Title)) {
+  else if (inItem) {
     inItem = NO;
+  }
+  else if (inLink) {
+    inLink = NO;
+    if (!inItem) {
+      parser.feed.link = [parser currentString];
+    }
+    else {
+      [parser currentString];
+    }
   }
   
   parser.storingCharacters = NO;
