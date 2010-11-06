@@ -40,6 +40,7 @@ static NSString* testFeedURL = @"http://codebrane.com/cbfeed/cbfeedtest.xml";
   
   STAssertEquals(feedParser.feed.title, @"Alistair's cakeBlog", @"eek!");
   NSLog(@"TITLE = %@", feedParser.feed.title);
+  NSLog(@"LINK = %@", feedParser.feed.link);
   
   if (![feedParser isFeedOK]) {
     CBFeedError *error = [feedParser getError];
