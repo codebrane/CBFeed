@@ -1,10 +1,9 @@
 #import <SenTestingKit/SenTestingKit.h>
 #import <UIKit/UIKit.h>
-#import "CBFeed.h"
+#import "CBFeedParser.h"
 
 @interface CBFeedTestCase : SenTestCase {
-  CBFeed *feed;
-  NSString *testFeedURL;
+  CBFeedParser *feedParser;
 }
 
 @end
