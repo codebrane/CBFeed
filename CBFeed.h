@@ -1,13 +1,10 @@
 #import <Foundation/Foundation.h>
-#import "CBFeedParser.h"
+#import "CBFeedItem.h"
 
 @interface CBFeed : NSObject {
-  CBFeedParser *parser;
-  NSString *feedURL;
+  NSString *title;
 }
 
-@property (nonatomic, retain) NSString *feedURL;
-
--(id)initWithFeedURL:(NSString *)url;
+@property (nonatomic, retain) NSString *title;
 
 @end
